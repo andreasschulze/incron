@@ -41,8 +41,8 @@
 #include "usertable.h"
 #include "incroncfg.h"
 
-/// Logging options (console as fallback, log PID)
-#define INCRON_LOG_OPTS (LOG_CONS | LOG_PID)
+/// Logging options (log PID)
+#define INCRON_LOG_OPTS (LOG_PID)
 
 /// Logging facility (use CRON)
 #define INCRON_LOG_FACIL LOG_CRON
